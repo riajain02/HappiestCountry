@@ -1,0 +1,7 @@
+Edit prior to usage:
+1. Download "world-happiness-report.csv" from https://www.kaggle.com/ajaypalsinghlo/world-happiness-report-2021?select=world-happiness-report.csv
+2. Open Test.java and navigate to the main method
+3. Paste the file path of the dataset on line 17: DataSource.connect([PASTE PATH AS STRING])
+
+Compile: javac -classpath ./lib2/sinbad.jar  Test.java
+Run: java -classpath ./lib2/sinbad.jar  Test.java
